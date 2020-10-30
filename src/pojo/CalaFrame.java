@@ -106,7 +106,7 @@ public class CalaFrame extends JFrame {
         super("我的计算器");// title
         this.setResizable(false);// 设置不可改变大小
         this.setIconImage(new ImageIcon("images\\calc.png").getImage());// 设置最小化图片
-        this.setSize(220, 335);// 设置大小
+        this.setSize(230, 335);// 设置大小
         this.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
         initPanel1();
         initPanel2();
@@ -597,7 +597,7 @@ public class CalaFrame extends JFrame {
     public void basementType() {
 
         try {
-            CalaFrame.this.setSize(220, 335);
+            CalaFrame.this.setSize(230, 335);
             panel3.setSize(205, 60);
             text1.setBounds(10, 35, 195, 25);
             text2.setBounds(10, 10, 195, 25);
@@ -615,7 +615,7 @@ public class CalaFrame extends JFrame {
      * 切换到科学计算器
      */
     public void scienceType() {
-        if (CalaFrame.this.getSize().getWidth() == 220) {
+        if (CalaFrame.this.getSize().getWidth() == 230) {
             CalaFrame.this.setSize(432, 335);
             panel3.setSize(420, 60);
             text1.setBounds(10, 35, 408, 25);
